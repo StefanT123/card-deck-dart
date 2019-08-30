@@ -3,6 +3,7 @@ import '../models/Deck.dart';
 
 void main() {
     Deck deck = new Deck();
-    deck.shuffle();
+    print(deck);
+    deck.removeCard('Ace', 'Hearts');
     print(deck);
 }
